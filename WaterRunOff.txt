@@ -1,0 +1,29 @@
+INPUTS
+Length of roof in feet
+Width of roof in feet
+Number of inches of rainfall
+
+OUTPUTS
+Cubic inches of water
+Number of gallons of rainfall
+
+VARIABLES
+length
+width
+cu_in_water
+gallons_water
+
+PROCESSING STEPS
+1. Prompt the user for the length and width of the roof in feet.
+2. Calculate the cubic inches of water:
+
+	cu_in_water = (length * 12) * (width * 12) * in_rainfall
+
+3. Calculate the number of gallons of water:
+	
+	gallons_water = cu_in_water / 231
+
+4. Print cu_in_water and gallons_water result to the screen.
+
+
+

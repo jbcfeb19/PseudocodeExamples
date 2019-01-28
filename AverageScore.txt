@@ -1,0 +1,35 @@
+INPUTS
+Exam score 1
+Exam score 2
+Exam score 3
+Exam score 4
+Exam score 5
+Exam score 6
+Exam score 7
+Exam score 8
+Exam score 9
+Exam score 10
+
+OUTPUTS
+Average of the ten exam scores
+
+VARIABLES
+score1
+score2
+score3
+score4
+score5
+score6
+score7
+score8
+score9
+score10
+average
+
+PROCESSING STEPS
+1. Prompt the user for 10 exam scores.
+2. Calculate the average (average = (score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8 + score9 + score10) / 10)
+3. Print the average.
+
+
+

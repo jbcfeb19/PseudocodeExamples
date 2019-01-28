@@ -1,0 +1,52 @@
+INPUTS
+Customer's name
+Purchase amount
+Tax code (0,1,2,3)
+
+OUTPUTS
+Customer's name
+Purchase amount
+Sales tax percentage
+Sales tax amount
+Total amount due
+
+VARIABLES
+Customer's name
+Purchase amount
+Tax code
+Tax percentage
+Sales tax amount
+Total amount due
+
+PROCESSING STEPS
+1. Get customer's name.
+2. Get user's tax code.
+3. Get user's purchase amount.
+4. Determine tax percentage based on tax code entered (0%, 3%, 5%, 7%).
+5. Calculate sales tax = (purchase amount) * (tax percentage)
+6. Calculate total amount due = (sales tax) + (purchase amount)
+7. Print customer's name, purchase amount, sales tax, and total amount due.
+
+- Declare variables for customer's name, tax percentage, purchase amount, sales tax, total amount due.
+- Enter customer name.
+- Read in customer's name and store into variable "customer".
+- Enter tax code.
+- Read in tax code and store into variable "tax_code".
+- Enter purchase amount.
+- Read in purchase amount and store into variable "purchase_amount".
+if(tax_code = 0)
+    tax_percentage = 0
+else if(tax_code = 1)
+    tax_percentage = 3  
+else if(tax_code = 2)
+    tax_percentage = 5  
+else if(tax_code = 3)
+    tax_percentage = 7
+
+sales_tax = (tax_percentage/100) * (purchase_amount)
+total_amount_due = sales_tax + purchase_amount
+
+Print customer_name, tax_percentage, purchase_amount, sales_tax, total_amount_due 
+
+
+

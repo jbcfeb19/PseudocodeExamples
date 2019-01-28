@@ -1,0 +1,16 @@
+INPUTS
+Integer from user
+
+OUTPUTS
+Result after adding 5, doubling it and subtracting 7
+
+VARIABLES
+Integer input
+
+PROCESSING STEPS
+1. Get integer input from user (num)
+2. Add 5 to the input (num = num + 5)
+3. Double the result from step 2 (num = num * 2)
+4. Subtract 7 from the result from step 3 (num = num - 7)
+5. Print result from step 4 to the screen.
+

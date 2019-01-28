@@ -1,0 +1,20 @@
+INPUTS
+Number 1
+Number 2
+Number 3
+
+OUTPUTS
+Sum of three numbers
+
+VARIABLES
+num1
+num2
+num3
+sum
+
+PROCESSING STEPS
+1. Get 3 numbers from the user.
+2. sum = num1 + num2 + num3
+3. Print sum.
+
+

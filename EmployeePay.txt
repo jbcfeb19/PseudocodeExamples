@@ -1,0 +1,30 @@
+INPUTS
+Employee number
+Pay rate
+Hours worked
+
+OUTPUTS
+Print employee's weekly pay along with their employee number, pay rate and hours worked
+
+VARIABLES
+Employee number
+Pay rate
+Hours worked
+Overtime hours
+Overtime pay
+Weekly pay
+
+PROCESSING STEPS
+1. Get user's employee number.
+2. Get user's pay rate.
+3. Check user's pay rate (if greater than 25, terminate program and output message).
+4. Get user's hours worked 
+5. Check user's hours worked (if greater than 60, terminate program and output message).
+6. Determine hours worked (between 36 and 60, less than or equal 35).
+7a. Calculate weekly pay if hours worked is between 36 and 60:
+	- Overtime Hours = Hours worked - 35
+	- Overtime pay = (overtime hours) * (pay rate *1.5)
+	- Weekly pay = (overtime pay) + (35 * pay rate)
+7b. Calculate weekly pay if hours worked is less than or equal to 35:
+	- Weekly pay = (hours worked) * (pay rate)
+8. Print out employee information and weekly pay.
