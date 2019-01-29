@@ -10,6 +10,7 @@ Number of gallons of rainfall
 VARIABLES
 length
 width
+in_rainfall
 cu_in_water
 gallons_water
 
